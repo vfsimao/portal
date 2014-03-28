@@ -1,0 +1,1101 @@
+/* Author: Victor F. Simão | UX Designer at MStech Educação e Tecnologia Ltda - Bauru SP/Brasil */
+/* Customer: Porto Seguro - Seguros | São Paulo SP/Brasil */
+
+/* Fonte personalizada do Google Fonts  */
+
+
+/* -----------------------------------*/
+/* -------->>> FONTICONS <<<----------*/
+/* -----------------------------------*/
+
+/* Eric Meyer's Reset CSS v2.0 - http://cssreset.com */
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,
+big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,
+dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,
+canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,
+time,mark,audio,video{border:0;font-size:100%;font:inherit;vertical-align:baseline;margin:0;padding:0}
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}
+body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,
+q:before,q:after{content:none}table{/*border-collapse:collapse;border-spacing:0*/width: 100%;margin-top: 15px;}
+
+html
+{
+  width:100%;
+  height:100%;
+}
+
+body                             
+
+{ 
+  font-family: 'Helvetica', sans-serif; 
+  font-size:16px; 
+  background-color:#fff;
+  color:#7f8c8d; 
+  overflow-x:hidden;
+  width:100%;
+  height:100%;
+  margin:0;
+  padding:0;
+}
+
+.divGeral
+{
+  width:100%;
+  height:100%;
+}
+
+.tabPrincipal
+{
+  width:100%;
+  height:100%;
+}
+
+#corpo
+{
+  width:100%;
+  position:relative;
+}
+
+/* -----------------------------------*/
+/* ---------->>> GLOBAL <<<-----------*/
+/* -----------------------------------*/
+
+img
+{
+  border:none;
+}
+
+p
+{
+  font-size:16px;
+  /*text-align:left;*/
+}
+
+h1
+{
+  font-family:'Helvetica', sans-serif;
+  font-size:20px;
+  color:#333;
+}
+
+h2
+{
+  font-family:'Helvetica', sans-serif;
+  font-size:18px;
+  color:#333;
+}
+
+h3
+{
+  font-family:'Helvetica', sans-serif;
+  font-size:16px;
+  color:#333;
+}
+
+a
+{
+  text-decoration:underline;
+}
+
+a :hover
+{
+  text-decoration:underline;
+}
+
+a :focus
+{
+  text-decoration:underline;
+}
+
+a :active
+{
+  text-decoration:underline;
+}
+
+strong
+{
+  font-weight:bold;
+}
+
+em
+{
+  font-style:italic;
+}
+
+hr
+{
+  border:2px solid #333;
+}
+
+/* -----------------------------------*/
+/* ---------->>> TOPO   <<<-----------*/
+/* -----------------------------------*/
+
+#cabecalho    
+{
+  position:relative;
+  width:100%;
+  height:200px;
+}
+
+.logo
+{
+  background-color:#333;
+  /*background: url(...) no-repeat center center scroll;*/
+  position:absolute;
+  width:300px;
+  height:150px;
+  top:25px;
+  left:50%;
+  margin-left:-150px;
+}
+
+.divGeral.home .topo
+{
+  background-color:#EDEDED;
+  /*background: url(...) no-repeat center center scroll;*/
+  width: 100%;
+  height: 300px;
+  margin-top: 200px;
+  margin-bottom: 30px;
+  float:left;
+}
+
+.linkPolitica                              
+{
+  width:300px;
+  height:55px;
+  position:absolute;
+  top:70px;
+  right:0;
+  margin-right:20px;
+  text-align:right;
+  z-index: 2;
+}
+
+.linkPolitica a
+{
+  color:#2C2A2B;
+  text-decoration:none;
+}
+
+.linkPolitica a:hover
+{
+  text-decoration:underline;
+}
+
+.proposta
+{
+  text-align:center;
+  position: absolute;
+  width:160px;
+  height:40px;
+  top: -150px;
+  margin-left:20px;
+}
+
+.proposta span
+{
+  margin-left:5px;
+}
+
+/*#ctl00_UCPropostaMenu__lstProdutos
+{
+  border-radius: 20px;
+  border: solid 2px #2ecc71;
+}*/
+
+/* -----------------------------------*/
+/* ---------->>> MENU   <<<-----------*/
+/* -----------------------------------*/
+
+.tabLoginMenu 
+{ 
+  display: inline-block; 
+  vertical-align: top; 
+  width: 100%; 
+} 
+
+.ulMenu                           
+{
+  padding:0px;
+  margin-top:0px;
+  font-size: 16px;
+  width:100%;
+  height:70px;
+  text-align:center;
+  line-height:58px;
+}
+
+.menu
+{
+  font-size:18px;
+  width:100%;
+}
+
+.menu ul li
+{
+  display: inline; 
+}
+
+.menu ul
+{
+  list-style:none;
+  margin-bottom:5%;
+  padding:0px;
+}
+
+.menu ul li a
+{
+  padding: 2px 10px;
+  display: inline-block;
+ 
+  /* visual do link */
+  background-color:#EDEDED;
+  color: #333;
+  text-decoration: none;
+  border-bottom:3px solid #EDEDED;
+}
+
+.menu ul li a:hover
+{
+  background-color:#D6D6D6;
+  color: #6D6D6D;
+  border-bottom:3px solid #EA0000;
+}
+
+.menu li a:focus
+{
+  text-decoration:none;
+}
+
+.menu li a:active
+{
+  text-decoration:none;
+}
+
+.item.expande.n5
+{
+  display:none;
+}
+
+/* -----------------------------------*/
+/* ---------->>>CONTENT <<<-----------*/
+/* -----------------------------------*/
+
+.conteudo   /* Segura o conteudo no local correto */
+{ 
+  display: inline-block; 
+  vertical-align: top; 
+  width: 90%;
+  margin-top:100px;
+  margin-left:5%;  
+}
+
+.diagrama4col
+{
+  width:100%;
+}
+
+.diagrama4col h2
+{
+  margin-bottom:20px;
+}
+
+.conteudoCaixa img
+{
+  border:none;
+}
+
+.n1 .conteudoCaixa img
+{
+  display:none;
+}
+
+.n4 .conteudoCaixa img
+{
+  width:200px;
+  height:200px;
+}
+
+.n6 .conteudoCaixa img
+{
+  width:100px;
+  height:100px;
+}
+
+.caixa2x2                           /*Bloco Contato*/
+{
+  /*background-color: #333;*/
+  width: 45%;
+  height: 220px;
+  margin-bottom: 20px;
+  margin-right: 4%;
+}
+
+.caixa.n1 .conteudoCaixa .linkTitulo
+{
+  display:block;
+  margin-top:20px;
+}
+
+.caixa1x2
+{
+  width:24%;
+  height: 220px;
+  margin-bottom:20px;
+}
+
+.caixa.n2 .conteudoCaixa .linkBasico   /*Bloco RSS*/
+{
+  display: block;
+  margin-top: 20px;
+}
+
+.caixa4x1
+{
+  width:100%;
+  margin-bottom:20px;
+}
+
+.caixa.n4 .conteudoCaixa .linkTitulo   /*Bloco do Álbum*/
+{
+  display: block;
+  margin-left: 220px;
+  margin-top: -160px;
+}
+
+.caixa.n4 .conteudoCaixa .textoResumo
+{
+  display: block;
+  width: 30%;
+  margin-left: 220px;
+}
+
+.caixa.n4 .conteudoCaixa .n2
+{
+  /*display: block;*/
+  /* margin-top: -152px; */
+  /* margin-left: 610px; */
+  /* margin-bottom: 60px; */
+  width: 100%;
+}
+
+.caixa2x1
+{
+  width:48%;
+  margin-bottom:20px;
+}
+
+.caixa.n5   /*Bloco do Calendário*/
+{
+  height: 310px;
+}
+
+.caixa.n5 .conteudoCaixa
+{
+  line-height: 27px;
+}
+
+.caixa.n5 .conteudoCaixa .linkTitulo
+{
+  display: block;
+  margin-top: 15px;
+}
+
+.cal_cell
+{
+  text-align:center;
+}
+
+.cal_labelcell
+{
+  cursor:pointer;
+}
+
+.caixa.n6     /*Bloco de Notícias*/
+{
+  height: 310px;
+}
+
+.caixa.n6 .conteudoCaixa .n2
+{
+  margin-top:40px;
+}
+
+.caixa.n6 .conteudoCaixa .linkTitulo
+{
+  display: block;
+  margin-left: 120px;
+  margin-top: -90px;
+}
+
+.caixa.n6 .conteudoCaixa span
+{
+  display: block;
+  margin-left: 120px;
+  width:70%;
+}
+
+.caixa1x1
+{
+  width:25%;
+}
+
+.anuncio
+{
+  display:none;
+}
+
+#divPrint
+{
+  display:none;
+}
+
+/* -----------------------------------*/
+/* ------>>>  CAIXAS INDEX  <<<-------*/
+/* -----------------------------------*/
+
+.caixa.tipo_contato
+{
+  background-color:#ecf0f1;
+}
+
+.caixa.tipo_contato img
+{
+  display:none;
+}
+
+.caixa.tipo_contato a
+{
+  display: block;
+  margin-top: 5%;
+}
+
+.caixa.tipo_rss
+{
+  background-color:#ecf0f1;
+}
+
+.caixa.tipo_rss .conteudoCaixa
+{
+  display:block;
+  margin-top:5%;
+}
+
+.caixa.tipo_rss ul
+{
+  display:block;
+  margin-bottom:5%;
+}
+
+.caixa.tipo_youtube
+{
+  background-color:#ecf0f1;
+}
+
+.caixa.tipo_youtube h2
+{
+  margin-bottom:5%;
+}
+
+.caixa.tipo_youtube iframe
+{
+  width:100%;
+}
+
+.caixa.tipo_fotos
+{
+  background-color:#ecf0f1;
+}
+
+.caixa.tipo_fotos h2
+{
+  margin-bottom:1%;
+}
+
+.caixa.tipo_fotos .n1 img
+{
+  width: 30%;
+  height:30%;
+}
+
+.caixa.tipo_fotos .n2 img
+{
+  width: 15%;
+  height: 15%;
+}
+
+.caixa.tipo_fotos .n1
+{
+  width:50%;
+  margin-top: 5%
+}
+
+.caixa.tipo_fotos .n2
+{
+  width:50%;
+  margin-left: 50%;
+  margin-top: -11%;
+}
+
+.caixa.tipo_fotos ul
+{
+  margin-bottom:12%;
+  margin-top:-3%;
+}
+
+.caixa.tipo_fotos .n1 .linkTitulo
+{
+  display: block;
+  margin-left: 36%;
+  margin-top: -27%;
+}
+
+.caixa.tipo_fotos .n2 .linkTitulo
+{
+  display: block;
+  margin-left: 18%;
+  margin-top: -14%;
+}  
+
+.caixa.tipo_fotos .n1 .textoResumo
+{
+  display: block;
+  width: 60%;
+  margin-left: 36%;
+}
+
+.caixa.tipo_fotos .n2 .textoResumo
+{
+  display: block;
+  width: 30%;
+  margin-left: 18%;
+}
+
+.caixa.tipo_fotos .linkBasico
+{
+  display: block;
+  margin-top: -5%;
+}
+
+.caixa.tipo_calendario
+{
+  background-color:#ecf0f1;
+}
+
+.caixa.tipo_calendario h2
+{
+  margin-bottom: 3%;
+}
+
+.caixa.tipo_noticias
+{
+  background-color:#ecf0f1;
+}
+
+.caixa.tipo_noticias h2
+{
+  margin-bottom: 4%;
+}
+
+.caixa.tipo_noticias ul li img
+{
+  width: 15%;
+  height: 15%;
+}
+
+.caixa.tipo_noticias .linkTitulo
+{
+  display: block;
+  margin-left: 20%;
+}
+
+.caixa.tipo_noticias .textoResumo
+{
+  display: block;
+  margin-left: 20%;
+}
+
+.caixa.tipo_noticias .linkBasico
+{
+  display: block;
+  margin-top: 5%;
+}
+
+/* -----------------------------------*/
+/* ------>>>  REDES SOCIAIS  <<<------*/
+/* -----------------------------------*/
+
+.compartilhar
+{
+  width: 35%;
+  margin-left: 37%;
+  margin-top: 3%;
+}
+
+.fb_iframe_widget
+{
+  margin-right:10px;
+  margin-left:28px;
+}
+
+/* -----------------------------------*/
+/* ---------->>>  PAGES  <<<----------*/
+/* -----------------------------------*/
+
+.conteudoPagina h1
+{
+  margin-bottom:20px;
+}
+
+.tipo_produtosCorretor
+{
+  width:90%;
+  margin-left: 5%;
+}
+
+.tipo_produtosCorretor p
+{
+  margin-top:20px;
+}
+
+.containerDataGridRepeater div
+{
+  margin-bottom: 10px;
+  background-color: #EDEDED;
+  border-radius: 5px;
+  padding-left: 10px;
+}
+
+.tabelaListagem img
+{
+  margin:10px 0 10px 0;
+}
+
+.cal_event
+{
+  background-color:#e74c3c;
+}
+
+.conteudoPagina.tipo_calendario .cal_header
+{
+  height:40px;
+  line-height:40px;
+}
+
+.conteudoPagina.tipo_noticias
+{
+  width: 90%;
+  margin-left: 5%;
+  margin-top: 10%;
+}
+
+.conteudoPagina.tipo_noticias h1
+{
+  margin-bottom: 20px;
+  margin-left: 0%;
+  margin-top: -10%;
+}
+
+.conteudoPagina.tipo_noticias h2
+{
+  display: block;
+  margin-bottom:20px;
+}
+
+.conteudoPagina.tipo_noticias .textoResumo
+{
+  margin-bottom: 5px;
+  display: block;
+}
+
+.conteudoPagina.tipo_noticias .imagemPrincipal
+{
+  margin-top: -10%;
+}
+
+#ctl00_ContentPlaceHolder1_UCNoticia1__ucVisualizaNoticia__lbTituloAvancado
+{
+  display: block;
+  /* margin-left: 12%; */
+  /* margin-bottom: 10%; */
+  margin-top: 12%;
+}
+
+.conteudoPagina.tipo_fotos
+{
+  width:90%;
+  margin-left:5%
+}
+
+.conteudoPagina.tipo_fotos .textoTitulo
+{
+  margin-bottom: 10px;
+  display: block;
+}
+
+.conteudoPagina.tipo_fotos .textoResumo
+{
+  display: block;
+  width: 100%;
+  /*margin-left: 5%;*/
+}
+
+.conteudoPagina.tipo_fotos .linkBasico
+{
+  margin-top: 10px;
+  display: block;
+}
+
+.conteudoPagina.tipo_contato
+{
+  width: 28%;
+  margin-left: 35%;
+}
+
+.conteudoPagina.tipo_contato .linkPolitica
+{
+  display:none;
+}
+
+.conteudoPagina.tipo_propostaOnline
+{
+  width: 30%;
+  margin-left: 35%;
+}
+
+.conteudoPagina.tipo_propostaOnline .linkPolitica
+{
+  display:none;
+}
+
+.conteudoPagina.tipo_formulario
+{
+  width: 30%;
+  margin-left: 35%;
+}
+
+.conteudoPagina.tipo_formulario .linkPolitica
+{
+  display:none;
+}
+
+#ctl00_ContentPlaceHolder1_UCPaginaSimplesVisualiza1_layoutAvancado
+{
+  width: 40%;
+  margin-left: 30%;
+}
+
+.textoFerramenta ol li
+{
+  margin-bottom:10px;
+}
+
+.conteudoPagina.tipo_paginaBranco
+{
+  width: 60%;
+  margin-left: 20%;
+}
+
+.conteudoPagina .tituloFerramenta
+{
+  margin-bottom: 10px;
+}
+
+.conteudoPagina.tipo_calendario table
+{
+  background-color:#ecf0f1;
+  border-collapse: collapse;
+  border:1px solid #bdc3c7;
+}
+
+.conteudoPagina.tipo_calendario .imagemPrincipal
+{
+  margin-bottom: 10px;
+}
+
+.conteudoPagina.tipo_calendario .textoData
+{
+  display: block;
+  margin-top: 10px;
+}
+
+.conteudoPagina.tipo_rss
+{
+  width: 70%;
+  margin-left: 15%;
+}
+
+.conteudoPagina.tipo_download
+{
+  width:60%;
+  margin-left: 20%;
+}
+
+#ctl00_ContentPlaceHolder1_UCPaginaSimplesVisualiza1_layoutAvancado /*Controla a largura do Google Maps*/
+{
+  width:80%;
+  margin-left:10%;
+}
+
+.conteudoPagina.tipo_politicaPrivacidade
+{
+  width: 60%;
+  margin-left: 20%;
+}
+
+/* -----------------------------------*/
+/* ---------->>>  FORMS  <<<----------*/
+/* -----------------------------------*/
+
+.itemForm
+{
+  margin-top:0;
+  margin-bottom:10px;
+  display: block;
+  width:100%;
+}
+
+.mascaraFORM
+{
+  display:block;
+  width:300px;
+  margin-top:10px;
+}
+
+.textBoxFORM
+{
+  width: 330px;
+}
+
+.buttonFORM
+{
+  width:80px;
+  height:40px;
+  margin-top:25px;
+}
+
+.itemForm.n14
+{
+  margin-top:30px;
+}
+
+.textoObservacao
+{
+  margin-bottom: 20px;
+  display: block;
+}
+
+#ctl00_ContentPlaceHolder1__UCPropostaCadastroAvancado__lblPrivacidadeAvancado
+{
+  margin-top: 35px;
+  display: block;
+  margin-bottom: 10px;
+}
+
+#ctl00_ContentPlaceHolder1__UCPropostaCadastroAvancado__lstProdutosAvancado
+{
+  margin-top: 20px;
+}
+
+#ctl00_ctl00_ContentPlaceHolder1_childContent__UCFormularioAvancado_ctl16__lblRotulo2
+{
+  display:block;
+  margin-top:10px;
+}
+
+#ctl00_ctl00_ContentPlaceHolder1_childContent__UCFormularioAvancado_ctl16__lblRotulo1
+{
+  display:block;
+  margin-top:10px;
+}
+
+#ctl00_ctl00_ContentPlaceHolder1_childContent__UCFormularioAvancado_ctl10__lblRotulo1
+{
+  display:block;
+  margin-top:10px;
+}
+
+#ctl00_ctl00_ContentPlaceHolder1_childContent__UCFormularioAvancado_ctl10__lblRotulo2
+{
+  display:block;
+  margin-top:10px;
+}
+
+#ctl00_ContentPlaceHolder1_UCNoticia1__ucVisualizaNoticia__ucComentarioNoticiaAvancado__lblNomeAvancado
+{
+  margin-top:10px;
+  display:block;
+}
+
+#ctl00_ContentPlaceHolder1__UCContatoCadastroAvancado__btnLimparAvancado
+{
+  display:none;
+}
+
+#ctl00_ContentPlaceHolder1__UCPropostaCadastroAvancado__btnLimparAvancado
+{
+  display:none;
+}
+
+#ctl00_ctl00_ContentPlaceHolder1_childContent__UCFormularioAvancado__btnCancelarAvancado
+{
+  display:none;
+}
+
+#ctl00_ContentPlaceHolder1__UCPropostaCadastroAvancado__lblCnpjAvancado
+{
+  margin-top: 22px;
+  display: block;
+}
+
+#ctl00_ContentPlaceHolder1__UCPropostaCadastroAvancado__lblMensagemAvancado
+{
+  display: block;
+  margin-top: 28px;
+}
+
+#ctl00_ctl00_ContentPlaceHolder1_childContent__UCFormularioAvancado__lblDescricaoAvancado
+{
+  display: block;
+  margin-bottom: 20px;
+}
+
+#ctl00_ctl00_ContentPlaceHolder1_childContent__UCFormularioAvancado_ctl25__itemForm
+{
+  width: 100%;
+}
+
+#ctl00_ContentPlaceHolder1__UCContatoCadastroAvancado__lblPrivacidadeAvancado
+{
+  width: 100%;
+  display: block;
+  margin-bottom: 10px;
+}
+
+/* -----------------------------------*/
+/* ---------->>> FOOTER <<<-----------*/
+/* -----------------------------------*/
+
+#rodape
+{
+  width:100%;
+  height: 60px;
+  line-height:60px;
+  text-align:center;
+  font-size:15px;
+  color: #2C2A2B;
+  margin-top:30px;
+  background-color:#EDEDED;
+}
+
+.linkRodape
+{
+  display:none;
+}
+
+/* -----------------------------------*/
+/* ---------->>>   MQ   <<<-----------*/
+/* -----------------------------------*/
+
+@media only screen and (min-width : 768px) and (max-width : 1024px) {
+  body { background: #F2F2F2; } 
+  .fundo_super { display:none; } 
+  .anuncio { display:none; }
+  .linkRodape { display:none; }
+  .linkPolitica { display:none; }
+  .compartilhar { display:none; }
+  .caixa.tipo_fotos .n2 {  width:50%;  margin-left: 50%;  margin-top: -17%; }
+  .caixa.tipo_fotos ul {  margin-bottom:5%;  margin-top:-3%; }
+ 
+}
+
+/* Tablet (landscape) ----------- */
+@media only screen and (min-width : 768px) and (max-width : 1024px) and (orientation : landscape) {
+  body { background: #F2F2F2; } 
+  .fundo_super { display:none; } 
+  .anuncio { display:none; }
+  .linkRodape{ display:none; }
+  .linkPolitica { display:none; }
+  .compartilhar { display:none; }
+  .caixa.tipo_fotos .n2 {  width:50%;  margin-left: 50%;  margin-top: -17%; }
+  .caixa.tipo_fotos ul {  margin-bottom:5%;  margin-top:-3%; }
+}
+
+/* Tablet (portrait) ----------- */
+@media only screen and (min-width : 768px) and (max-width : 1024px) and (orientation : portrait) {
+  body { background: #F2F2F2; } 
+  .fundo_super { display:none; } 
+  .anuncio { display:none; }
+  .linkRodape{ display:none; }
+  .linkPolitica { display:none; }
+  .compartilhar { display:none; }
+  .caixa.tipo_fotos .n2 {  width:50%;  margin-left: 50%;  margin-top: -17%; }
+  .caixa.tipo_fotos ul {  margin-bottom:5%;  margin-top:-3%; }
+}
+
+/* Tablets até 1024 é daqui pra cima */
+
+/* Todos tamanhos de mobile */
+@media only screen and (max-width: 767px) { 
+  body { background: #F2F2F2; } 
+  .fundo_super { display:none; } 
+  .anuncio { display:none; }
+  .linkRodape{ display:none; }
+  .linkPolitica { display:none; } 
+  .compartilhar { display:none; }
+  .proposta { text-align: center; position: absolute; width: 160px; height: 40px; top: 0%; margin-left: 35%; }
+  .menu ul { list-style: none; margin-bottom: 35%; padding: 0px; }
+  .divGeral.home .topo { background-color: #EDEDED; /* background: url(...) no-repeat center center scroll; */ width: 100%; height: 300px; margin-top: 45%; margin-bottom: 30px; float: left; } 
+  .caixa.tipo_youtube { display:none; }
+  .caixa1x2 { width: 48%; height: 220px; margin-bottom: 5%; }
+  .caixa.tipo_fotos .n1 { width: 48%; margin-top: 5%; }
+  .caixa.tipo_fotos .n2 { width: 50%; margin-left: 48%; margin-top: -37%; }
+  .caixa.tipo_fotos .linkBasico { display: block; margin-top: -10%; }
+  .caixa.n6 .conteudoCaixa .linkTitulo { display: block; margin-left: 30%; margin-top: -16%; }
+  .caixa.n6 .conteudoCaixa span { display: block; margin-left: 30%; width: 65%; }
+  .caixa.n6 .conteudoCaixa .n2 { margin-top: 2%; }
+  .caixa.tipo_noticias .linkBasico { display: block; margin-top: -10%; }
+  .caixa1x1 { width: 45%; margin-left: 5%; margin-bottom: 5%; }
+  .conteudoPagina.tipo_contato { width: 28%; margin-left: 19%; }
+  .topo { width: 100%; height: 20px; float: left; margin-bottom: 43%; }
+  #ctl00_ContentPlaceHolder1__UCContatoCadastroAvancado__lblPrivacidadeAvancado { width: 140%; display: block; margin-bottom: 10px; }
+  .listSelecaoFORM { width: 230%; display: block; }
+  .conteudoPagina.tipo_propostaOnline { width: 30%; margin-left: 20%; }
+  #ctl00_ContentPlaceHolder1__UCPropostaCadastroAvancado__lblPrivacidadeAvancado { margin-top: 35px; display: block; margin-bottom: 10px; width: 140%; }
+  .conteudoPagina.tipo_formulario { width: 30%; margin-left: 20%; }
+  #ctl00_ctl00_ContentPlaceHolder1_childContent__UCFormularioAvancado_ctl27__lblRotulo { display: block; width: 110%; }
+  #ctl00_ContentPlaceHolder1_UCNoticia1__ucVisualizaNoticia__ucComentarioNoticiaAvancado__lblComentarioAvancado { display: block; }
+  #ctl00_ContentPlaceHolder1_UCNoticia1__ucVisualizaNoticia__ucComentarioNoticiaAvancado__txtComentarioAvancado { width: 78%; }
+  #ctl00_ContentPlaceHolder1_UCNoticia1__ucVisualizaNoticia__ucComentarioNoticiaAvancado__lblTituloAvancado { display: block; margin-top: 10px; }
+  #ctl00_ContentPlaceHolder1_UCNoticia1__ucVisualizaNoticia__ucComentarioNoticiaAvancado__txtTituloAvancado { width: 79%; }
+  #ctl00_ContentPlaceHolder1_UCNoticia1__ucVisualizaNoticia__ucComentarioNoticiaAvancado__txtNomeAvancado { width: 79%; }
+  #ctl00_ContentPlaceHolder1_UCNoticia1__ucVisualizaNoticia__ucComentarioNoticiaAvancado__txtEmailAvancado { width: 79%; display: block; }
+}
+
+/* Mobile em landscape a tablet Portrait */
+@media only screen and (min-width: 480px) and (max-width: 766px) { 
+  body { background: #F2F2F2; } 
+  .fundo_super { display:none; } 
+  .anuncio { display:none; }
+  .linkRodape{ display:none; }
+  .linkPolitica { display:none; } 
+  .compartilhar { display:none; }
+  .proposta { margin-left: 30%; }
+  .divGeral.home .topo { margin-top: 54%; }
+  .conteudo { margin-top: 40%; }
+  .caixa.n4 .conteudoCaixa .n2 { margin-top: -50%; }
+  .caixa.tipo_calendario { display:none; }
+}
+
+/* Mobile em portrait a mobile em landscape */
+@media only screen and (max-width: 320px) { 
+  body { background: #F2F2F2; } 
+  .fundo_super { display:none; } 
+  .anuncio { display:none; }
+  .linkRodape{ display:none; }
+  .linkPolitica { display:none; } 
+  .compartilhar { display:none; }
+  .proposta { margin-left: 24%; } 
+}
