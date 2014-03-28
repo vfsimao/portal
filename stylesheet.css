@@ -1101,4 +1101,9 @@ hr
   .proposta { margin-left: 24%; }
   .divGeral.home .topo { margin-top: 85%; }
   .menu ul { margin-bottom: 185%; }
+  .caixa.tipo_fotos .n1 { width: 100%; }
+  .caixa.n4 .conteudoCaixa .n2 { width: 200%; margin-top: 10%; margin-left: 0%; }
+  .caixa2x2 { width: 100%; margin-left: 0%; }
+  .caixa.n5 { width: 100%; margin-left: 0%; }
+  .caixa2x1 { width: 100%; margin-left: 0%; }
 }
