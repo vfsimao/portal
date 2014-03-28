@@ -1106,4 +1106,10 @@ hr
   .caixa2x2 { width: 100%; margin-left: 0%; }
   .caixa.n5 { width: 100%; margin-left: 0%; }
   .caixa2x1 { width: 100%; margin-left: 0%; }
+  .caixa.tipo_fotos .n2 .textoResumo { width: 30%; }
+  .caixa1x1 { width: 80%; margin-left: 10%; }
+  #ctl00_ContentPlaceHolder1_UCBlocos1_ctl19__imgSeguro { margin-left: -17%; }
+  #ctl00_ContentPlaceHolder1_UCBlocos1_ctl19__lbMenuTitulo { margin-left: -12%; }
+  #rodape { height: 120px; }
+  .caixa.tipo_rss { width:100%; }
 }
