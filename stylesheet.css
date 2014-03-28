@@ -1087,6 +1087,7 @@ hr
   .conteudo { margin-top: 40%; }
   .caixa.n4 .conteudoCaixa .n2 { margin-top: -50%; }
   .caixa.tipo_calendario { display:none; }
+  .caixa2x1 { width: 100%; margin-bottom: 20px; }
 }
 
 /* Mobile em portrait a mobile em landscape */
@@ -1097,5 +1098,8 @@ hr
   .linkRodape{ display:none; }
   .linkPolitica { display:none; } 
   .compartilhar { display:none; }
-  .proposta { margin-left: 24%; } 
+  .proposta { margin-left: 24%; }
+  .divGeral.home .topo { margin-top: 85%; }
+  .menu ul { margin-bottom: 185%; }
+  .caixa4x1 { display: none; } 
 }
