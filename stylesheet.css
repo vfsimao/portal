@@ -1088,6 +1088,19 @@ hr
   .caixa.n4 .conteudoCaixa .n2 { margin-top: -50%; }
   .caixa.tipo_calendario { display:none; }
   .caixa2x1 { width: 100%; margin-bottom: 20px; }
+  .conteudoPagina.tipo_contato { width: 90%; margin-left: 5%; }
+  .listSelecaoFORM { width: 100%; display: block; margin-top: 10%; }
+  .conteudoPagina.tipo_propostaOnline { width: 90%; margin-left: 5%; }
+  .ulMenu { margin-top: 10%; }
+  /*.conteudoPagina.tipo_produtosCorretor { margin-top: 15%; }*/
+  .conteudoPagina.tipo_formulario { width: 80%; margin-left: 10%; }
+  /*.conteudoPagina.tipo_paginaBranco { margin-top:15%; }
+  .conteudoPagina.tipo_noticias { margin-top: 25% }
+  .conteudoPagina.tipo_fotos { margin-top: 15%; }
+  .conteudoPagina.tipo_recado { margin-top: 15%; }
+  .conteudoPagina.tipo_calendario { margin-top: 15%; }*/
+  .conteudoPagina.tipo_rss {  width: 90%; margin-left: 5%; }
+  #ctl00_ContentPlaceHolder1_UCBlocos1_ctl11__lkbTodas { margin-top: 1%; }
 }
 
 /* Mobile em portrait a mobile em landscape */
