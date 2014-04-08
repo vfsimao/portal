@@ -60,6 +60,17 @@ body
 /* ---------->>> GLOBAL <<<-----------*/
 /* -----------------------------------*/
 
+/*   Muda a cor de seleção do texto   */
+::selection 
+{   background: #2980b9; 
+  color: #fff; 
+} 
+::-moz-selection 
+{ 
+  background: #2980b9; 
+  color: #fff; 
+}
+
 img
 {
   border:none;
@@ -125,6 +136,11 @@ em
 hr
 {
   border:2px solid #333;
+}
+
+.linkBasico
+{
+  text-decoration: none;
 }
 
 /* -----------------------------------*/
@@ -251,17 +267,17 @@ hr
   display: inline-block;
  
   /* visual do link */
-  background-color:#EDEDED;
+  background-color:#fff;
   color: #333;
   text-decoration: none;
-  border-bottom:3px solid #EDEDED;
+  border-bottom:3px solid #fff;
 }
 
 .menu ul li a:hover
 {
-  background-color:#D6D6D6;
+  background-color:#ecf0f1;
   color: #6D6D6D;
-  border-bottom:3px solid #EA0000;
+  border-bottom:3px solid #ef0e53;
 }
 
 .menu li a:focus
@@ -288,7 +304,7 @@ hr
   display: inline-block; 
   vertical-align: top; 
   width: 90%;
-  margin-top:100px;
+  margin-top: 2%;
   margin-left:5%;  
 }
 
@@ -335,8 +351,17 @@ hr
 
 .caixa.n1 .conteudoCaixa .linkTitulo
 {
-  display:block;
-  margin-top:20px;
+  display: block;
+  margin-top: 33%;
+  width: 20%;
+  background-color: #ef0e53;
+  text-align: center;
+  vertical-align: middle;
+  border-radius: 10px;
+  text-decoration: none;
+  color: #fff;
+  height: 28px;
+  line-height: 28px;
 }
 
 .caixa1x2
@@ -349,7 +374,16 @@ hr
 .caixa.n2 .conteudoCaixa .linkBasico   /*Bloco RSS*/
 {
   display: block;
-  margin-top: 20px;
+  margin-top: 4%;
+  width: 40%;
+  background-color: #EF0E53;
+  text-align: center;
+  vertical-align: middle;
+  border-radius: 10px;
+  text-decoration: none;
+  color: #FFF;
+  height: 28px;
+  line-height: 28px;
 }
 
 .caixa4x1
@@ -384,7 +418,7 @@ hr
 .caixa2x1
 {
   width:48%;
-  margin-bottom:20px;
+  margin-bottom:4%;
 }
 
 .caixa.n5   /*Bloco do Calendário*/
@@ -400,7 +434,14 @@ hr
 .caixa.n5 .conteudoCaixa .linkTitulo
 {
   display: block;
-  margin-top: 15px;
+  margin-top: 10%;
+  width: 25%;
+  background-color: #EF0E53;
+  text-align: center;
+  vertical-align: middle;
+  border-radius: 10px;
+  text-decoration: none;
+  color: #FFF;
 }
 
 .cal_cell
@@ -458,7 +499,7 @@ hr
 
 .caixa.tipo_contato
 {
-  background-color:#ecf0f1;
+  background-color:#fff;
 }
 
 .caixa.tipo_contato img
@@ -474,7 +515,23 @@ hr
 
 .caixa.tipo_rss
 {
-  background-color:#ecf0f1;
+  background-color:#fff;
+}
+
+.caixa.caixa1x2.n2.tipo_rss ul li
+{
+  background-color: rgba(236, 236, 236, 1);
+  height: 68px;
+  margin-bottom: 5px;
+  font-size: 45px;
+  line-height: 68px;
+  text-align: center;
+}
+
+.caixa.caixa1x2.n2.tipo_rss ul li a
+{
+  text-decoration: none;
+  color:#333;
 }
 
 .caixa.tipo_rss .conteudoCaixa
@@ -491,7 +548,7 @@ hr
 
 .caixa.tipo_youtube
 {
-  background-color:#ecf0f1;
+  background-color:#fff;
 }
 
 .caixa.tipo_youtube h2
@@ -506,7 +563,7 @@ hr
 
 .caixa.tipo_fotos
 {
-  background-color:#ecf0f1;
+  background-color:#fff;
 }
 
 .caixa.tipo_fotos h2
@@ -577,11 +634,20 @@ hr
 {
   display: block;
   margin-top: -5%;
+  width: 15%;
+  background-color: #EF0E53;
+  text-align: center;
+  vertical-align: middle;
+  border-radius: 10px;
+  text-decoration: none;
+  color: #FFF;
+  height: 30px;
+  line-height: 30px;
 }
 
 .caixa.tipo_calendario
 {
-  background-color:#ecf0f1;
+  background-color:#fff;
 }
 
 .caixa.tipo_calendario h2
@@ -591,7 +657,7 @@ hr
 
 .caixa.tipo_noticias
 {
-  background-color:#ecf0f1;
+  background-color:#fff;
 }
 
 .caixa.tipo_noticias h2
@@ -619,8 +685,17 @@ hr
 
 .caixa.tipo_noticias .linkBasico
 {
+  margin-top: 4.5%;
   display: block;
-  margin-top: 5%;
+  width: 25%;
+  background-color: #EF0E53;
+  text-align: center;
+  vertical-align: middle;
+  border-radius: 10px;
+  text-decoration: none;
+  color: #FFF;
+  height: 27px;
+  line-height: 27px;
 }
 
 /* -----------------------------------*/
