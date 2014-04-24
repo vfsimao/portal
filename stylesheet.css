@@ -2,7 +2,7 @@
 /* Customer: Porto Seguro - Seguros | São Paulo SP/Brasil */
 
 /* Fonte personalizada do Google Fonts  */
-@import url(http://fonts.googleapis.com/css?family=ABeeZee:400italic|Rosario);
+@import url(https://fonts.googleapis.com/css?family=Poiret+One|Open+Sans:300);
 
 /* -----------------------------------*/
 /* -------->>> FONTICONS <<<----------*/
@@ -27,10 +27,10 @@ html
 body                             
 
 { 
-  font-family: 'Rosario', sans-serif; 
-  font-size:16px; 
+  font-family: 'Open Sans', 'sans-serif'; 
+  font-size:15px; 
   background-color:#fff;
-  color:#7f8c8d; 
+  color:#666666; 
   overflow-x:hidden;
   width:100%;
   height:100%;
@@ -62,7 +62,8 @@ body
 
 /*   Muda a cor de seleção do texto   */
 ::selection 
-{   background: #2980b9; 
+{   
+  background: #2980b9; 
   color: #fff; 
 } 
 ::-moz-selection 
@@ -84,21 +85,28 @@ p
 
 h1
 {
-  font-family: 'ABeeZee', sans-serif;
+  font-family: 'Poiret One', 'cursive';
   font-size:22px;
   color:#333;
 }
 
 h2
 {
-  font-family: 'ABeeZee', sans-serif;
+  font-family: 'Poiret One', 'cursive';
   font-size:20px;
   color:#333;
 }
 
+.home h2
+{
+  border-bottom: 1px solid rgba(218, 218, 218, 1);
+  border-left: 10px solid rgba(221, 221, 221, 1);
+  padding-left: 10px;
+}
+
 h3
 {
-  font-family: 'ABeeZee', sans-serif;
+  font-family: 'Poiret One', 'cursive';
   font-size:18px;
   color:#333;
 }
@@ -354,14 +362,14 @@ hr
   display: block;
   margin-top: 33%;
   width: 20%;
-  background-color: #ef0e53;
+  background-color: rgba(42, 203, 78, 1);
   text-align: center;
   vertical-align: middle;
-  border-radius: 10px;
+  /*border-radius: 10px;*/
   text-decoration: none;
-  color: #fff;
-  height: 28px;
-  line-height: 28px;
+  color: #FFF;
+  height: 25px;
+  line-height: 25px;
 }
 
 .caixa1x2
@@ -376,20 +384,21 @@ hr
   display: block;
   margin-top: 4%;
   width: 40%;
-  background-color: #EF0E53;
+  background-color: #2ACB4E;
   text-align: center;
   vertical-align: middle;
-  border-radius: 10px;
+  /*border-radius: 10px;*/
   text-decoration: none;
   color: #FFF;
-  height: 28px;
-  line-height: 28px;
+  height: 25px;
+  line-height: 25px;
 }
 
 .caixa4x1
 {
-  width:100%;
-  margin-bottom:20px;
+  width: 100%;
+  margin-bottom:1%;
+  margin-top:3%;
 }
 
 .caixa.n4 .conteudoCaixa .linkTitulo   /*Bloco do Álbum*/
@@ -419,6 +428,7 @@ hr
 {
   width:48%;
   margin-bottom:4%;
+  margin-top: 3%;
 }
 
 .caixa.n5   /*Bloco do Calendário*/
@@ -434,14 +444,16 @@ hr
 .caixa.n5 .conteudoCaixa .linkTitulo
 {
   display: block;
-  margin-top: 10%;
-  width: 25%;
-  background-color: #EF0E53;
+  margin-top: 4%;
+  width: 22%;
+  background-color: #2ACB4E;
   text-align: center;
   vertical-align: middle;
-  border-radius: 10px;
+  /*border-radius: 10px;*/
   text-decoration: none;
   color: #FFF;
+  height: 25px;
+  line-height: 25px;
 }
 
 .cal_cell
@@ -480,7 +492,10 @@ hr
 
 .caixa1x1
 {
-  width:25%;
+  width:20%;
+  margin-left:5%;
+  margin-top: 1%;
+  margin-bottom: 2%;
 }
 
 .anuncio
@@ -593,7 +608,7 @@ hr
 {
   width:50%;
   margin-left: 50%;
-  margin-top: -11%;
+  margin-top: -10.2%;
 }
 
 .caixa.tipo_fotos ul
@@ -607,6 +622,8 @@ hr
   display: block;
   margin-left: 36%;
   margin-top: -27%;
+  text-decoration: none;
+  color:#333;
 }
 
 .caixa.tipo_fotos .n2 .linkTitulo
@@ -614,6 +631,8 @@ hr
   display: block;
   margin-left: 18%;
   margin-top: -14%;
+  text-decoration: none;
+  color:#333;
 }  
 
 .caixa.tipo_fotos .n1 .textoResumo
@@ -633,17 +652,17 @@ hr
 .caixa.tipo_fotos .linkBasico
 {
   display: block;
-  margin-top: -5%;
-  width: 15%;
-  background-color: #EF0E53;
+  margin-top:-5%;
+  width: 10%;
+  background-color: #2ACB4E;
   text-align: center;
   vertical-align: middle;
-  border-radius: 10px;
+  /*border-radius: 10px;*/
   text-decoration: none;
   color: #FFF;
-  height: 30px;
-  line-height: 30px;
-}
+  height: 25px;
+  line-height: 25px;
+} 
 
 .caixa.tipo_calendario
 {
@@ -685,17 +704,22 @@ hr
 
 .caixa.tipo_noticias .linkBasico
 {
-  margin-top: 4.5%;
+  margin-top: 1%;
   display: block;
-  width: 25%;
-  background-color: #EF0E53;
+  width: 22%;
+  background-color: #2ACB4E;
   text-align: center;
   vertical-align: middle;
-  border-radius: 10px;
+  /*border-radius: 10px;*/
   text-decoration: none;
   color: #FFF;
-  height: 27px;
-  line-height: 27px;
+  height: 25px;
+  line-height: 25px;
+}
+
+.caixa.caixa1x1.n10.tipo_acidentesPessoais
+{
+  float:left !important;
 }
 
 /* -----------------------------------*/
@@ -704,9 +728,9 @@ hr
 
 .compartilhar
 {
-  width: 35%;
-  margin-left: 37%;
-  margin-top: 3%;
+  width: 25%;
+  margin-left: 37.5%;
+  margin-top: 2%;
 }
 
 .fb_iframe_widget
@@ -1206,15 +1230,19 @@ hr
   .divGeral.home .topo { margin-top: 85%; }
   .menu ul { margin-bottom: 185%; margin-top: 18%; }
   .caixa.tipo_fotos .n1 { width: 100%; }
+  .caixa.n1 .conteudoCaixa .linkTitulo { margin-top: 58%; width: 100%; height: 35px; line-height: 35px; }
   .caixa.n4 .conteudoCaixa .n2 { width: 200%; margin-top: 10%; margin-left: 0%; }
   .caixa2x2 { width: 100%; margin-left: 0%; }
   .caixa.n5 { width: 100%; margin-left: 0%; }
   .caixa2x1 { width: 100%; margin-left: 0%; }
   .caixa.tipo_fotos .n2 .textoResumo { width: 30%; }
+  .caixa.tipo_fotos .linkBasico { width: 50%; height: 35px; line-height: 35px; }
+  .caixa.tipo_noticias .linkBasico { width: 50%; height: 35px; line-height: 35px; }
+  .caixa.n2 .conteudoCaixa .linkBasico { width: 50%; height: 35px; line-height: 35px; }
   .caixa1x1 { width: 80%; margin-left: 10%; }
-  #ctl00_ContentPlaceHolder1_UCBlocos1_ctl19__imgSeguro { margin-left: -17%; }
   #ctl00_ContentPlaceHolder1_UCBlocos1_ctl19__lbMenuTitulo { margin-left: -12%; }
-  #rodape { height: 120px; }
+  #rodape { height: 60px; }
+  #ctl00__ucRodape__lblRodape { line-height: 20px; }
   .caixa.tipo_rss { width:100%; }
   .conteudoPagina .tipo_contato { width:80%; margin-left:10% }
   .caixa.caixa1x1.n7.tipo_residencia { margin-top: 10%; }
