@@ -8,6 +8,7 @@
 /* -------->>> FONTICONS <<<----------*/
 /* -----------------------------------*/
 
+
 /* Eric Meyer's Reset CSS v2.0 - http://cssreset.com */
 html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,
 big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,
@@ -81,6 +82,7 @@ p
 {
   font-size:16px;
   /*text-align:left;*/
+  line-height:20px;
 }
 
 h1
@@ -357,15 +359,30 @@ hr
   margin-right: 4%;
 }
 
-.caixa.n1 .conteudoCaixa .linkTitulo
+.caixa.n1 .conteudoCaixa .linkTitulo 
 {
   display: block;
-  margin-top: 33%;
+  margin-top: 2%;
   width: 20%;
-  background-color: rgba(42, 203, 78, 1);
+  /*background-color: #2ACB4E;*/
+  text-align: center;
+  /*vertical-align: middle;*/
+  text-decoration: none;
+  color: #333;
+  /*height: 25px;*/
+  /*line-height: 25px;*/
+  /*margin-bottom: 2%;*/
+  margin-left: -14px;
+}
+
+.caixa.n1 .conteudoCaixa .linkBasico 
+{
+  display: block;
+  margin-top: 17.5%;
+  width: 21%;
+  background-color: #2ACB4E;
   text-align: center;
   vertical-align: middle;
-  /*border-radius: 10px;*/
   text-decoration: none;
   color: #FFF;
   height: 25px;
@@ -536,10 +553,10 @@ hr
 .caixa.caixa1x2.n2.tipo_rss ul li
 {
   background-color: rgba(236, 236, 236, 1);
-  height: 68px;
+  height: 2.5em;
   margin-bottom: 5px;
-  font-size: 45px;
-  line-height: 68px;
+  font-size: 1.5em;
+  line-height: 2.5em;
   text-align: center;
 }
 
@@ -1186,6 +1203,7 @@ hr
   .menu ul { margin-bottom: 30%; margin-top: 5%; }
   .caixa.tipo_fotos .n2 { margin-top:-38%; }
   .buttonFORM { width: 100%; height: 50px; }
+  .conteudo { margin-top: 22%; }
 }
 
 /* Mobile em landscape a tablet Portrait */
@@ -1216,6 +1234,18 @@ hr
   .conteudoPagina.tipo_rss {  width: 90%; margin-left: 5%; }
   #ctl00_ContentPlaceHolder1_UCBlocos1_ctl11__lkbTodas { margin-top: 1%; }
   .buttonFORM { width: 100%; height: 50px; }
+  .caixa.n1 .conteudoCaixa .linkTitulo { margin-left: 0px; }
+  .caixa.n1 .conteudoCaixa .linkBasico { width: 55%; height: 35px; line-height: 35px; }
+  .caixa.tipo_rss { background-color:transparent; }
+  .caixa.n2 .conteudoCaixa .linkBasico { margin-top: -2%; width: 55%; height: 35px; line-height: 35px; }
+  .caixa.tipo_fotos .n2 img { margin-top: 3%; }
+  .caixa.tipo_fotos { background-color:transparent; }
+  .caixa.tipo_fotos .linkBasico { width: 50%; height: 35px; line-height: 35px; }
+  .caixa.tipo_noticias { background-color:transparent; }
+  .caixa.tipo_noticias .linkBasico { width: 50%; height: 35px; line-height: 35px; }
+  .proposta { margin-top: -30px; margin-left: 34%; }
+  .textBoxFORM { width: 100%; height: 25px; }
+  .containerDataGridRepeater .linkBasico { background-color: #2ACB4E; color: #fff; width: 100%; display: block; height: 35px; line-height: 35px; text-align: center; margin-top: 8%; }
 }
 
 /* Mobile em portrait a mobile em landscape */
@@ -1230,9 +1260,10 @@ hr
   .divGeral.home .topo { margin-top: 85%; }
   .menu ul { margin-bottom: 185%; margin-top: 18%; }
   .caixa.tipo_fotos .n1 { width: 100%; }
-  .caixa.n1 .conteudoCaixa .linkTitulo { margin-top: 58%; width: 100%; height: 35px; line-height: 35px; }
+  .caixa.n1 .conteudoCaixa .linkTitulo { margin-top: 6%; width: 100%; height: 35px; line-height: 35px; margin-left: -102px; }
+  .caixa.n1 .conteudoCaixa .linkBasico { width: 50%; height: 35px; line-height: 35px; }
   .caixa.n4 .conteudoCaixa .n2 { width: 200%; margin-top: 10%; margin-left: 0%; }
-  .caixa2x2 { width: 100%; margin-left: 0%; }
+  .caixa2x2 { width: 100%; margin-left: 0%; margin-bottom: 15%; margin-top: -30px; }
   .caixa.n5 { width: 100%; margin-left: 0%; }
   .caixa2x1 { width: 100%; margin-left: 0%; }
   .caixa.tipo_fotos .n2 .textoResumo { width: 30%; }
@@ -1240,10 +1271,9 @@ hr
   .caixa.tipo_noticias .linkBasico { width: 50%; height: 35px; line-height: 35px; }
   .caixa.n2 .conteudoCaixa .linkBasico { width: 50%; height: 35px; line-height: 35px; }
   .caixa1x1 { width: 80%; margin-left: 10%; }
-  #ctl00_ContentPlaceHolder1_UCBlocos1_ctl19__lbMenuTitulo { margin-left: -12%; }
   #rodape { height: 60px; }
   #ctl00__ucRodape__lblRodape { line-height: 20px; }
-  .caixa.tipo_rss { width:100%; }
+  .caixa.tipo_rss { width:100%; background-color:transparent; margin-bottom: 15%; }
   .conteudoPagina .tipo_contato { width:80%; margin-left:10% }
   .caixa.caixa1x1.n7.tipo_residencia { margin-top: 10%; }
   .textBoxFORM { width: 100%; height: 30px; }
@@ -1258,4 +1288,8 @@ hr
   .conteudoPagina.tipo_download { width: 90%; margin-left: 5%; }
   .conteudoPagina.tipo_paginaBranco { width: 90%; margin-left: 5%; }
   .gmaps iframe { height:400px; }
-}
+  .caixa.tipo_fotos { background-color:transparent; margin-bottom: 15%; }
+  .caixa.tipo_noticias{ background-color:transparent; margin-bottom: 15%; }
+  .containerDataGridRepeater .linkBasico { background-color: #2ACB4E; color: #fff; width: 100%; display: block; height: 35px; line-height: 35px; text-align: center; margin-top: 8%; }
+  .containerDataGridRepeater div { background-color:transparent; }
+  .containerDataGridRepeater { margin-left:-10px; }
