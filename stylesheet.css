@@ -747,15 +747,21 @@ hr
 
 .compartilhar
 {
-  width: 25%;
-  margin-left: 37.5%;
-  margin-top: 2%;
+  position: fixed;
+  top: 200px;
+  height: 9em;
+  width: 8%;
+  margin-left: 0px;
 }
 
-.fb_iframe_widget
+.fb_iframe_widget 
 {
-  margin-right:10px;
-  margin-left:28px;
+  margin-bottom: 5%;
+}
+
+#twitter-widget-0
+{
+    margin-bottom: 5%;
 }
 
 /* -----------------------------------*/
