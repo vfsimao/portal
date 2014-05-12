@@ -183,7 +183,7 @@ hr
   background: url(../../Portais/7254/Imagens/204456.jpg) no-repeat center center scroll;
   width: 100%;
   height: 300px;
-  margin-top: 200px;
+  margin-top: 0px;
   margin-bottom: 30px;
   float:left;
   border-bottom: 1px solid #999;
@@ -232,6 +232,17 @@ hr
   border-radius: 20px;
   border: solid 2px #2ecc71;
 }*/
+
+.topo 
+{
+  min-width: 100%;
+  background-image: url("http://www.corretorportoseguro.com/Portais/7254/Imagens/205764.jpg");
+  background-repeat:repeat-x;
+  height: 14em;
+  top: 25em;
+  display: block;
+  position: absolute;
+}
 
 /* -----------------------------------*/
 /* ---------->>> MENU   <<<-----------*/
@@ -313,11 +324,38 @@ hr
 
 .conteudo   /* Segura o conteudo no local correto */
 { 
-  display: inline-block; 
-  vertical-align: top; 
+  vertical-align: top;
   width: 90%;
-  margin-top: 2%;
-  margin-left:5%;  
+  margin-top: 22%;
+  margin-left: 5%;
+  display: block; 
+}
+
+.divGeral.home .conteudo 
+{
+  display: inline-block;
+  vertical-align: top;
+  width: 90%;
+  margin-top: 30%;
+  margin-left: 5%;
+}
+
+.conteudoPagina h1 .textoTitulo 
+{
+  margin-top: -3.3em;
+  display: block;
+  position: absolute;
+  color: #fff;
+  margin-left: 0px;
+  font-size: 2.5em;
+}
+
+.conteudoPagina h1 .textoTitulo:hover 
+{
+  transition:all 0.3s ease;
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
 }
 
 .diagrama4col
